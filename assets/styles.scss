@@ -200,6 +200,20 @@ img{
         }
     }
 }
+.home__information {
+    margin-right: 20px; /* Optional: adjust spacing from the image */
+  }
+  
+  .home__img {
+    width: 291px;
+    height: 200px;
+    z-index: var(--z-normal);
+  }
+  
+  .home__img img {
+    width: 100%;
+    height: auto;  /* Ensures the image keeps its aspect ratio */
+  }
 /*----- MEDIA QUERIES -----*/
 @media screen and (min-width: 768px){
     body{
